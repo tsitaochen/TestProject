@@ -1,0 +1,3 @@
+[submodule "cpp_pro/thirdparty"]
+	path = cpp_pro/thirdparty
+	url = https://github.com/tsitaochen/TestProjectThirdParty.git
