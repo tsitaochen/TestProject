@@ -4,6 +4,8 @@ project(test_main)
 file(GLOB_RECURSE SOURCES *.cpp *.cxx *.cc)
 # 使用指定的源文件来生成目标可执行文件
 add_executable(${PROJECT_NAME} ${SOURCES})
+# 定义最终编译结果的二进制执行文件的存放目录
+set(EXECUTABLE_OUTPUT_PATH  ${ROOT_DIR}/pub/${PROJECT_NAME}/bin)
 # 这里放只有这里需要的include
 include_directories(${SOURCE_DIR}/include)
 # 设置要链接的库文件的名称

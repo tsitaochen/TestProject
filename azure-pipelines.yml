@@ -16,5 +16,6 @@ steps:
     mkdir build && cd build
     cmake ..
     make
-    ./src/test_main
+    cd ..
+    ./pub/test_main/bin/test_main
   displayName: 'make cpp_pro'
